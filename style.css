@@ -1,0 +1,347 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+    background-color: royalblue;
+}
+
+.home-photo {
+    float: right;
+}
+
+.home-photo img {
+    width:350px;
+    height:350px;
+    border-radius: 50%;
+    margin-right:200px;
+   
+
+
+}
+.home-photo img{
+    float:right
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 100;
+    font-size: 18px;
+}
+li {
+    float:Right;
+}
+li a{
+    display: block;
+    color:orange;
+    text-align: center;
+    padding:14px 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin:20px 15px;
+    
+}
+li a:hover{
+ color:white
+}
+.home-content{
+    max-width:600px;
+    color:white;
+    margin-left: 70px;
+    margin-top:180px;
+}
+.home-content h1{
+    margin-top:20px;
+    font-size:55px;
+    line-height: 1.2;
+    margin-left :50px;
+    color:white
+}
+.home-content h3 {
+    font-size:40px;
+    color:orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:50px;
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-radius: 50%;
+    border: 2px solid white;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-top:12px ;
+    margin-bottom: 35px;
+    
+}
+.cv{
+    padding: 11px 35px ;
+    background: orange;
+    border-radius: 40px;
+    font-size: 17px;
+    color:white;
+    text-decoration: none;
+    font-weight: 1px;
+    box-shadow: 0 0 10px orange;
+    transition: .5s;
+    margin-left:50px;
+}
+.cv:hover{
+    box-shadow: none;
+}
+.home-content p{
+    margin-left:50px;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    font-style:italic;
+}
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:0;
+    margin:0;
+}
+body{
+    background:royalblue;
+    text-Transform:uppercase;
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:50px;
+    color:black;
+}
+h3{
+    margin:5px;
+}
+.sur img{
+    width:500px;
+    margin:60px auto;
+    color:#fff;
+    padding:20px;
+    box-shadow:0 14px 28px rgba(0, 0, 0, 0.5),0 10px 10px rgba(0, 0, 0,0.22); 
+    float: left;
+    margin-left:80px;
+    background: orange;
+}
+.name img{
+    width:500px;
+    margin:60px auto;
+    color:#fff;
+    padding:20px;
+    box-shadow:0 14px 28px rgba(0, 0, 0, 0.5),0 10px 10px rgba(0, 0, 0,0.22); 
+    float: right;
+    margin-right:80px;
+    background:orange;
+}
+
+
+
+
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+body{
+    background:royalblue;
+    text-Transform:uppercase;
+}
+h1{
+    text-align: center;
+}
+h3{
+    margin:5px;
+}
+.skill{
+    width:500px;
+    margin:60px auto;
+    color:#fff;
+    padding:20px;
+    box-shadow:0 14px 28px rgba(0, 0, 0, 0.5),0 10px 10px rgba(0, 0, 0,0.22); 
+    float: left;
+    margin-left:80px;
+}
+.skill li{
+    margin: 20px 0;
+    padding :10px;
+}
+.bar{
+    background:#353b48;
+    display: block;
+    height:20px;
+    border: 1px solid rgba(0, 0, 0,0.3);
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0,0.12), 0 1px 2px rgba(0, 0, 0,0.24);
+    transition:all 0.3scubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+
+ box-shadow: 0 14px 28px rgba(0, 0, 0,0.25), 0 10px 10px rgba(0, 0, 0,0.2);
+}
+.bar span{
+    height:20px;
+    float:left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%, rgba(252,103,103,103,1)100%);
+}
+.html{
+    background:orange;
+    width:70%;
+    animation: html 3s;
+}
+.Css{
+    background:orange;
+    width:50%;
+    animation: html 3s;
+}
+.Python{
+    background:orange;
+    width:60%;
+    animation: Python 3s;
+}
+.C{
+    background:orange;
+    width:40%;
+    animation: C 3s;
+}
+@keyframes html {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+@keyframes Css{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:70%;
+    }
+}
+@keyframes Python{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:50%;
+    }
+}
+@keyframes C{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:60%;
+    }
+}
+
+.soft h1{
+    text-align: center;
+}
+ h3{
+    margin:5px;
+}
+.soft{
+    width:500px;
+    margin:60px auto;
+    color:#fff;
+    padding:20px;
+    box-shadow:0 14px 28px rgba(0, 0, 0, 0.5),0 10px 10px rgba(0, 0, 0,0.22); 
+    float:right;
+    margin-right:80px;
+}
+.soft li{
+    margin: 20px 0;
+    padding :10px;
+}
+.bar{
+    background:#353b48;
+    display: block;
+    height:20px;
+    border: 1px solid rgba(0, 0, 0,0.3);
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0,0.12), 0 1px 2px rgba(0, 0, 0,0.24);
+    transition:all 0.3scubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+
+ box-shadow: 0 14px 28px rgba(0, 0, 0,0.25), 0 10px 10px rgba(0, 0, 0,0.2);
+}
+.bar span{
+    height:20px;
+    float:left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%, rgba(252,103,103,103,1)100%);
+}
+.cm{
+    background:orange;
+    width:30%;
+    animation: cm 3s;
+}
+
+.ct{
+    background:orange;
+    width:60%;
+    animation: ct 3s;
+}
+
+@keyframes cm {
+    0%{
+        width:0%;
+    }
+    100%{
+        width:90%;
+    }
+}
+
+@keyframes ct{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:50%;
+    }
+}
+
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+body{
+    background:royalblue;
+}
+h1{
+    text-align: center;
+    margin-top:50px;
+    color: orange;
+}
+h2{
+    margin:5px;
+    text-align: center;
+    color:black
+}
+.st-ed {
+    text-align: center;
+    width:800px;
+    margin:60px auto;
+    color:#fff;
+    padding:20px;
+    box-shadow:0 14px 28px rgba(0, 0, 0, 0.5),0 10px 10px rgba(0, 0, 0,0.22); 
+    border-radius:25px;
+    margin-top:135px;
+}
+
